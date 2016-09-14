@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5dca878-52f6-4898-a1a5-b9dea4645845" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/charpter1/section4/exercises/E1_LinkListPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/charpter1/section4/problems/P1_Palindrome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java" afterPath="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java" />
     </list>
     <ignored path="july.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,25 +40,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E1_ReverseLinkList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="E1_ReverseLinkList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="901">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
               <folding>
                 <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E1_VariantWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section2/exercises/E1_VariantWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,12 +91,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P1_Palindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section4/problems/P1_Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="E1_LinkListPalindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section4/exercises/E1_LinkListPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,13 +181,15 @@
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/ReverseLinkList.java" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/MoveToHead.java" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E2_MoveToHead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section2/problems/P1_StringContain.java" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section2/exercises/E1_VariantWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section3/problems/P1_StrToInt.java" />
         <option value="$PROJECT_DIR$/target/classes/charpter1/section3/excercises/1.txt" />
         <option value="$PROJECT_DIR$/src/main/java/charpter1/section3/excercises/RandomAccess.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/charpter1/section4/problems/P1_Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/charpter1/section4/exercises/E1_LinkListPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java" />
       </list>
     </option>
   </component>
@@ -211,11 +229,11 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -268,84 +286,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charpter1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="section3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charpter1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="section3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charpter1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="july" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -365,6 +305,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="july" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="july" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charpter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="section4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="july" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="july" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charpter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="section4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,19 +603,19 @@
       <recent name="charpter1.section1.problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomAccess">
-    <configuration default="false" name="P1_StringContain.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.E1_ReverseLinkList.test">
+    <configuration default="false" name="P1_Palindrome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="charpter1.section2.problems.*" />
+          <option name="PATTERN" value="charpter1.section4.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="july" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="charpter1.section2.problems" />
-      <option name="MAIN_CLASS_NAME" value="charpter1.section2.problems.P1_StringContain" />
+      <option name="PACKAGE_NAME" value="charpter1.section4.problems" />
+      <option name="MAIN_CLASS_NAME" value="charpter1.section4.problems.P1_Palindrome" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -622,18 +630,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="P1_StringContain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="P1_Palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="charpter1.section2.problems.*" />
+          <option name="PATTERN" value="charpter1.section4.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="july" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="charpter1.section2.problems" />
-      <option name="MAIN_CLASS_NAME" value="charpter1.section2.problems.P1_StringContain" />
+      <option name="PACKAGE_NAME" value="charpter1.section4.problems" />
+      <option name="MAIN_CLASS_NAME" value="charpter1.section4.problems.P1_Palindrome" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -648,44 +656,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="P1_StrToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="E1_LinkListPalindrome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="charpter1.section3.problems.*" />
+          <option name="PATTERN" value="charpter1.section4.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="july" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="charpter1.section3.problems" />
-      <option name="MAIN_CLASS_NAME" value="charpter1.section3.problems.P1_StrToInt" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="P1_StrToInt.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="charpter1.section3.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="july" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="charpter1.section3.problems" />
-      <option name="MAIN_CLASS_NAME" value="charpter1.section3.problems.P1_StrToInt" />
+      <option name="PACKAGE_NAME" value="charpter1.section4.exercises" />
+      <option name="MAIN_CLASS_NAME" value="charpter1.section4.exercises.E1_LinkListPalindrome" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -700,24 +682,56 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RandomAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="E1_ReverseLinkList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="charpter1.section3.excercises.*" />
+          <option name="PATTERN" value="charpter1.section1.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="charpter1.section3.excercises.RandomAccess" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="july" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="charpter1.section1.exercises" />
+      <option name="MAIN_CLASS_NAME" value="charpter1.section1.exercises.E1_ReverseLinkList" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="july" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="E1_ReverseLinkList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="charpter1.section1.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="july" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="charpter1.section1.exercises" />
+      <option name="MAIN_CLASS_NAME" value="charpter1.section1.exercises.E1_ReverseLinkList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -869,19 +883,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.P1_StringContain.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.P1_StringContain" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.P1_StrToInt" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.P1_StrToInt.test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RandomAccess" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.P1_Palindrome.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.P1_Palindrome" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.E1_LinkListPalindrome.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.E1_ReverseLinkList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.E1_ReverseLinkList.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomAccess" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.P1_StrToInt" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.P1_StrToInt.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.P1_StringContain" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.P1_StringContain.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.E1_ReverseLinkList.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.E1_ReverseLinkList" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.E1_LinkListPalindrome.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.P1_Palindrome" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.P1_Palindrome.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -907,44 +921,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473741991810</updated>
-      <workItem from="1473741992911" duration="13287000" />
+      <workItem from="1473741992911" duration="16318000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="E1_LinkListPalindrome_test - 2016.09.14 at 10h 21m 34s.xml">
+      <configuration name="E1_LinkListPalindrome.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E1_LinkListPalindrome_test - 2016.09.14 at 10h 22m 20s.xml">
+      <configuration name="E1_LinkListPalindrome.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E1_LinkListPalindrome_test - 2016.09.14 at 10h 22m 59s.xml">
+      <configuration name="E1_LinkListPalindrome.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E1_ReverseLinkList - 2016.09.14 at 10h 29m 30s.xml">
+      <configuration name="E1_ReverseLinkList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E1_ReverseLinkList_test - 2016.09.14 at 10h 32m 06s.xml">
+      <configuration name="E1_ReverseLinkList.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P1_Palindrome - 2016.09.14 at 09h 49m 29s.xml">
+      <configuration name="P1_Palindrome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P1_Palindrome_test - 2016.09.14 at 09h 48m 14s.xml">
+      <configuration name="P1_Palindrome.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P1_Palindrome_test - 2016.09.14 at 09h 48m 21s.xml">
+      <configuration name="P1_Palindrome.test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="P1_StrToInt - 2016.09.13 at 16h 11m 34s.xml">
       <configuration name="P1_StrToInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 00m 02s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 00m 20s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 00m 27s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 00m 38s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 01m 28s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 01m 56s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 02m 06s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 10m 27s.xml">
-      <configuration name="P1_StrToInt.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="P1_StrToInt_test - 2016.09.13 at 16h 10m 58s.xml">
       <configuration name="P1_StrToInt.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13287000" />
+    <option name="totallyTimeSpent" value="16318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-421" width="2560" height="1417" extended-state="6" />
@@ -956,11 +970,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1954717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1954717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13463067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -969,7 +984,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1040,8 +1054,8 @@
         <state relative-caret-position="814">
           <caret line="2370" column="30" selection-start-line="2370" selection-start-column="30" selection-end-line="2370" selection-end-column="30" />
           <folding>
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="false" />
+            <element signature="e#94636#94637#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,17 +1103,6 @@
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,6 +1184,37 @@
         <state relative-caret-position="46">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section4/problems/P1_Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section4/exercises/E1_LinkListPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/charpter1/section1/exercises/E1_ReverseLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

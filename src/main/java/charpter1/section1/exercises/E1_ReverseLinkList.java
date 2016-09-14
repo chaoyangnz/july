@@ -28,7 +28,7 @@ public class E1_ReverseLinkList {
 
     private Node<Integer> head;
 
-    public void reverse(int k) {
+    public void reverseHalves(int k) {
         Node current = head;
         int count = 1;
         Node tail = null;
@@ -62,10 +62,10 @@ public class E1_ReverseLinkList {
         Node current = head;
         Node newHead = null;
         while (current != null) {
-            Node prev = current;
-            current = current.next;
-            prev.next = newHead;
-            newHead = prev;
+            Node next = current.next;
+            current.next = newHead;
+            newHead = current;
+            current = next;
         }
         head = newHead;
     }
@@ -73,12 +73,12 @@ public class E1_ReverseLinkList {
     @Test
     public void test() {
         init(new int[] {1,2,3,4,5,6});
-        reverse(2);
+        reverseHalves(2);
 
         init(new int[] {1,2,3,4,5,6});
-        reverse(3);
+        reverseHalves(3);
 
         init(new int[] {1,2,3,4,5,6});
-        reverse(4);
+        reverseHalves(4);
     }
 }
