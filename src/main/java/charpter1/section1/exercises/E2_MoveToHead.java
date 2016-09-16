@@ -11,9 +11,7 @@ import org.junit.Test;
 public class E2_MoveToHead {
     @Test
     public void test() {
-        P1_RotateString rs = new P1_RotateString();
         String str = "Ilovebaofeng";
-        rs.init(str.toCharArray());
-        rs.rotate(str.length() - 7);
+        P1_RotateString.rotate(str.toCharArray(), str.length() - 7);
     }
 }

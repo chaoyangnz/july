@@ -1,31 +1,14 @@
 package charpter1.section4.exercises;
 
-import charpter1.section1.exercises.E1_ReverseLinkList;
 import org.junit.Test;
+import util.LinkedListUtil.*;
+
+import static util.LinkedListUtil.*;
 
 /**
  * Created by riyang on 9/14/16.
  */
 public class E1_LinkListPalindrome {
-    private static class Node<T> {
-        public T value;
-        Node next;
-
-        public Node(T value) {
-            this.value = value;
-        }
-    }
-
-    private Node<Integer> head;
-
-    public void init(int[] ints) {
-        head = new Node(ints[0]);
-        Node tail = head;
-        for(int i=1; i < ints.length; ++i) {
-            tail.next = new Node(ints[i]);
-            tail = tail.next;
-        }
-    }
 
     /**
      * 1 -> 2 -> 3 -> 4 -> 4 <- 3 <- 2 <- 1
@@ -33,20 +16,9 @@ public class E1_LinkListPalindrome {
      *
      * @return
      */
-    public boolean isPalindrome() {
-        Node fast = head;
-        Node slow = head;
-
+    public boolean isPalindrome(Node head) {
         // find middle node using fast-slow pointers
-        while(fast != null) {
-            slow = slow.next;
-            if(fast.next != null) {
-                fast = fast.next.next;
-            } else {
-                break;
-            }
-        }
-        Node middle = slow;
+        Node middle = findMiddle(head);
 
         // reverseHalves 2nd half
         Node tail = reverse(middle);
@@ -65,35 +37,22 @@ public class E1_LinkListPalindrome {
         return true;
     }
 
-    private Node reverse(Node head) {
-        Node current = head;
-        Node newHead = null;
-        while(current != null) {
-            Node next = current.next;
-
-            current.next = newHead;
-            newHead = current;
-            current = next;
-        }
-        return newHead;
-    }
-
     @Test
     public void test() {
-        int[] ints = {1,2,3,4,4,3,2,1};
-        init(ints);
-        System.out.println(isPalindrome());
+        Integer[] ints = {1,2,3,4,4,3,2,1};
+        Node head = toLinkedList(ints);
+        System.out.println(isPalindrome(head));
 
-        int[] ints1 = {1,2,3,4,5,3,2,1};
-        init(ints1);
-        System.out.println(isPalindrome());
+        Integer[] ints1 = {1,2,3,4,5,3,2,1};
+        Node head1 = toLinkedList(ints1);
+        System.out.println(isPalindrome(head1));
 
-        int[] ints2 = {1,2,3,4,5,4,3,2,1};
-        init(ints2);
-        System.out.println(isPalindrome());
+        Integer[] ints2 = {1,2,3,4,5,4,3,2,1};
+        Node head2 = toLinkedList(ints2);
+        System.out.println(isPalindrome(head2));
 
-        int[] ints3 = {1,2,3,4,5,6,3,2,1};
-        init(ints3);
-        System.out.println(isPalindrome());
+        Integer[] ints3 = {1,2,3,4,5,6,3,2,1};
+        Node head3 = toLinkedList(ints3);
+        System.out.println(isPalindrome(head3));
     }
 }
