@@ -1,6 +1,7 @@
 package util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -28,7 +29,6 @@ public final class ArrayUtil {
         final int N = chars.length;
         int i = 0;
 
-        int count = 0;
         List<Range> ranges = new ArrayList<Range>();
 
         while (i < N) {
@@ -62,7 +62,11 @@ public final class ArrayUtil {
     }
 
     public static void print(char[] arr) {
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void print(int[] arr) {
+        System.out.println(Arrays.toString(arr));
     }
 
     /**
@@ -78,6 +82,23 @@ public final class ArrayUtil {
         assert j >= 0 && j < arr.length;
 
         char temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    /**
+     * Swap the elements in index i and j
+     *
+     * @param arr
+     * @param i
+     * @param j
+     */
+    public static void swap(int[] arr, int i, int j) {
+        assert arr != null;
+        assert i >= 0 && i < arr.length;
+        assert j >= 0 && j < arr.length;
+
+        int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
@@ -127,5 +148,41 @@ public final class ArrayUtil {
      */
     public static void reversePrefix(char[] arr, int i) {
         reverse(arr, 0, i);
+    }
+
+    public static char[] subarray(char[] arr, int from, int to) {
+        assert from >= 0 && from < arr.length;
+        assert to >= 0 && to < arr.length;
+        assert from <= to;
+        int len = to - from + 1;
+        char[] arr1 = new char[len];
+        System.arraycopy(arr, from, arr1, 0, len);
+        return arr1;
+    }
+
+    public static char[] subarrayPrefix(char[] arr, int i) {
+        return subarray(arr, 0, i);
+    }
+
+    public static char[] subarraySuffix(char[] arr, int i) {
+        return subarray(arr, i, arr.length-1);
+    }
+
+    public static int[] subarray(int[] arr, int from, int to) {
+        assert from >= 0 && from < arr.length;
+        assert to >= 0 && to < arr.length;
+        assert from <= to;
+        int len = to - from + 1;
+        int[] arr1 = new int[len];
+        System.arraycopy(arr, from, arr1, 0, len);
+        return arr1;
+    }
+
+    public static int[] subarrayPrefix(int[] arr, int i) {
+        return subarray(arr, 0, i);
+    }
+
+    public static int[] subarraySuffix(int[] arr, int i) {
+        return subarray(arr, i, arr.length-1);
     }
 }
