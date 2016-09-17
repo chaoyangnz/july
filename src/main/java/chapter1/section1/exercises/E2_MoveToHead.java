@@ -1,6 +1,6 @@
-package charpter1.section1.exercises;
+package chapter1.section1.exercises;
 
-import charpter1.section1.problems.P1_RotateString;
+import chapter1.section1.problems.P1_RotateString;
 import org.junit.Test;
 
 /**

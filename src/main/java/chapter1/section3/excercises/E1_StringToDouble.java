@@ -1,4 +1,4 @@
-package charpter1.section3.excercises;
+package chapter1.section3.excercises;
 
 /**
  * Created by riyang on 9/13/16.

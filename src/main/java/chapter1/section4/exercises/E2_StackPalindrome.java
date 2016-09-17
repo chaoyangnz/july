@@ -1,6 +1,6 @@
-package charpter1.section4.exercises;
+package chapter1.section4.exercises;
 
-import charpter1.section4.problems.P1_Palindrome;
+import chapter1.section4.problems.P1_Palindrome;
 import org.junit.Test;
 
 import java.util.Stack;

@@ -1,8 +1,6 @@
-package charpter1.section2.problems;
+package chapter1.section2.problems;
 
 import org.junit.Test;
-
-import java.util.BitSet;
 
 /**
  * 给定两个分别由字母组成的字符串A和字符串B，字符串B的长度比字符串A短。

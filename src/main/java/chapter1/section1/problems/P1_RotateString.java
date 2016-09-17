@@ -1,4 +1,4 @@
-package charpter1.section1.problems;
+package chapter1.section1.problems;
 
 import org.junit.Test;
 import static util.ArrayUtil.*;

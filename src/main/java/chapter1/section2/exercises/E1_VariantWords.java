@@ -1,4 +1,4 @@
-package charpter1.section2.exercises;
+package chapter1.section2.exercises;
 
 /**
  * 1、变位词1

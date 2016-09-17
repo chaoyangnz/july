@@ -1,4 +1,4 @@
-package charpter1.section4.exercises;
+package chapter1.section4.exercises;
 
 import org.junit.Test;
 import util.LinkedListUtil.*;

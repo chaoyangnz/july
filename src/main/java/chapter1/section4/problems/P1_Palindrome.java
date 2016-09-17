@@ -1,4 +1,4 @@
-package charpter1.section4.problems;
+package chapter1.section4.problems;
 
 import org.junit.Test;
 
