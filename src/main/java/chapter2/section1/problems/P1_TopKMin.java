@@ -10,7 +10,7 @@ import static util.ArrayUtil.print;
  */
 public class P1_TopKMin {
 
-    public int[] selectTopKMin(int[] ints, int k) {
+    public static int[] selectTopKMin(int[] ints, int k) {
         assert ints != null;
         assert k > 0 && k < ints.length;
 

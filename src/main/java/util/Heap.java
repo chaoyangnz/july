@@ -13,6 +13,11 @@ public class Heap {
     private int[] arr = new int[1]; // first is dummy
     public boolean log = false;
 
+    /**
+     * get the array representation of this heap (complete binary tree)
+     *
+     * @return
+     */
     public int[] toArray() {
         return subarraySuffix(arr, 1);
     }
