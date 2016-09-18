@@ -21,31 +21,30 @@ public class E2_TopKSum1 {
             ++n;
         }
 
-        int heightTriangle = n + 1;
-        int lengthTriangle = heightTriangle*(heightTriangle+1)/2; // n+1 is the height of upper triangle
+        int height = n + 1; // the height of upper triangle
+        int area = height*(height+1)/2; // area is total count of upper triangle
 
         // candidates must be in the upper triangle
-        int[] triangle = new int[lengthTriangle];
+        int[] triangle = new int[area];
         int index = 0;
-        for(int i = 0; i < heightTriangle; ++i) {
-            for(int j=0 ; j <= i; ++j) {
-                triangle[index++] = arr1[j] + arr2[i-j];
+        for(int h = 0; h < height; ++h) {
+            for(int i=0 ; i <= h; ++i) {
+                triangle[index++] = arr1[i] + arr2[h-i];
             }
         }
 
-        if(lengthTriangle == k) return triangle;
+        if(area == k) return triangle;
 
-
-        int toSelect = n + 1 + k - lengthTriangle;
+        int toSelect = k - (area - height);
 
         System.out.print("triangle: ");
         print(triangle);
 
-        int[] candidates = subarraySuffix(triangle, lengthTriangle - heightTriangle); // n+1 elements
+        int[] candidates = subarraySuffix(triangle, area - height); // n+1 elements: from area - height -1  + 1
         System.out.print("tail candidates (need select " + toSelect + "): ");
         print(candidates);
         int[] remaining = P1_TopKMin.selectTopKMin(candidates, toSelect);
-        System.arraycopy(remaining, 0, triangle, lengthTriangle - heightTriangle, toSelect);
+        System.arraycopy(remaining, 0, triangle, area - height, toSelect);
 
         return subarrayPrefix(triangle, k-1);
     }
@@ -55,6 +54,6 @@ public class E2_TopKSum1 {
         int[] arr1 = {1, 3, 4, 8};
         int[] arr2 = {2, 4, 5, 9};
 
-        print(selectTopKSum(arr1, arr2, 8));
+        print(selectTopKSum(arr1, arr2, 9));
     }
 }
