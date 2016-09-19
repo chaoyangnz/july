@@ -28,17 +28,17 @@ public class P1_AllPermutation {
             boolean illegal = false;
 
             int num1 = num;
-            int[] bitmap = new int[length];
+            int[] bitset = new int[length];
             StringBuilder sb = new StringBuilder();
             while(num1 > 0) {
                 remaining = num1 % base;
 
-                if(remaining == 0 || remaining > length || bitmap[remaining] == 1) {
+                if(remaining == 0 || remaining > length || bitset[remaining] == 1) {
                     illegal = true;
                     break;
                 }
                 sb.insert(0, xchars[remaining] + "\t");
-                bitmap[remaining] = 1;
+                bitset[remaining] = 1;
                 num1 /= base;
             }
             if(illegal) continue;

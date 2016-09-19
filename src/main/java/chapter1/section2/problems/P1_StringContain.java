@@ -9,16 +9,16 @@ import org.junit.Test;
 public class P1_StringContain {
 
     public static boolean stringContains(String a, String b) {
-        int bitmap = 0; // 0000000000 0000000000 00000000 00000000
+        int bitset = 0; // 0000000000 0000000000 00000000 00000000
 
         char[] aChars = a.toCharArray();
         for(int i=0; i < aChars.length; ++i) {
-            bitmap |= 1 << aChars[i] - 'A';
+            bitset |= 1 << aChars[i] - 'A';
         }
 
         char[] bChars = b.toCharArray();
         for(int i=0; i < bChars.length; ++i) {
-            if((bitmap & 1 << bChars[i] - 'A') == 0) {
+            if((bitset & 1 << bChars[i] - 'A') == 0) {
                 return false;
             }
         }
