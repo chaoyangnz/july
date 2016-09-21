@@ -6,7 +6,7 @@ import org.junit.Test;
 import static util.ArrayUtil.*;
 
 /**
- * Created by richard on 9/17/16.
+ * 有两个序列A和B,A=(a1,a2,...,ak),B=(b1,b2,...,bk)，A和B都按升序排列。对于1<=i,j<=k，求k个最小的（ai+bj）。要求算法尽量高效。
  */
 public class E2_TopKSum1 {
 

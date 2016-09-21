@@ -6,7 +6,7 @@ import org.junit.Test;
 import static util.ArrayUtil.print;
 
 /**
- * Created by richard on 9/17/16.
+ * 谷歌面试题：输入是两个整数数组，他们任意两个数的和又可以组成一个数组，求这个和中前k个数怎么做？
  */
 public class E1_TopKSum {
 

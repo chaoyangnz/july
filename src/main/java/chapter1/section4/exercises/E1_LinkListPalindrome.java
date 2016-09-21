@@ -6,7 +6,7 @@ import util.LinkedListUtil.*;
 import static util.LinkedListUtil.*;
 
 /**
- * Created by riyang on 9/14/16.
+ * 判断一条单向链表是不是“回文”
  */
 public class E1_LinkListPalindrome {
 

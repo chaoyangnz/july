@@ -9,6 +9,14 @@ import java.util.List;
  */
 public final class ArrayUtil {
 
+    public static int max(int[] ints) {
+        int max = Integer.MIN_VALUE;
+        for(int i : ints) {
+            if(i > max) max = i;
+        }
+        return max;
+    }
+
     public static class Range {
         public int from;
         public int to;
@@ -97,6 +105,7 @@ public final class ArrayUtil {
         assert arr != null;
         assert i >= 0 && i < arr.length;
         assert j >= 0 && j < arr.length;
+        if(i == j) return;
 
         int temp = arr[i];
         arr[i] = arr[j];

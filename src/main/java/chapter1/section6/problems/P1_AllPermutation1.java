@@ -5,7 +5,9 @@ import org.junit.Test;
 import static util.ArrayUtil.*;
 
 /**
- * Created by riyang on 9/14/16.
+ * 输入一个字符串，打印出该字符串中字符的所有排列。
+ * 例如输入字符串abc，则输出由字符a、b、c 所能排列出来的所有字符串
+ * abc、acb、bac、bca、cab 和 cba。
  */
 public class P1_AllPermutation1 {
 

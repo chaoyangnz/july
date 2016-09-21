@@ -6,7 +6,7 @@ import util.Heap;
 import static util.ArrayUtil.print;
 
 /**
- * Created by richard on 9/17/16.
+ * 输入n个整数，输出其中最小的k个。
  */
 public class P1_TopKMin {
 

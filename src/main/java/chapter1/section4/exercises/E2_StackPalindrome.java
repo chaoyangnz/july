@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.Stack;
 
 /**
- * Created by riyang on 9/14/16.
+ * 判断一个栈是不是“回文”
  */
 public class E2_StackPalindrome {
 
