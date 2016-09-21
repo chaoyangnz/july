@@ -4,11 +4,11 @@ import org.junit.Test;
 import util.ArrayUtil;
 
 /**
- * Created by richard on 9/21/16.
+ * 现有n个红白蓝三种不同颜色的小球，乱序排列在一起，请通过两两交换任意两个球，使得从左至右，依次是一些红球、一些白球、一些蓝球。
  */
-public class Main {
+public class P1_DutchNationalFlag  {
 
-    public static void bar(char[] balls) {
+    public static void reorder_opt(char[] balls) {
         final int N = balls.length;
 
         int begin = 0;
@@ -29,7 +29,7 @@ public class Main {
         }
     }
 
-    public void foo(char[] balls) {
+    public void reorder(char[] balls) {
         final int N = balls.length;
 
         // make red before white or blue
@@ -64,7 +64,7 @@ public class Main {
     @Test
     public void test() {
         char[] balls = {'r', 'w', 'b', 'b', 'w', 'r', 'b', 'w', 'b', 'w', 'r', 'r', 'b'};
-        bar(balls);
+        reorder_opt(balls);
 //        ArrayUtil.print(balls);
     }
 }
